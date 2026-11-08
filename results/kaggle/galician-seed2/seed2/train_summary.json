@@ -1,0 +1,63 @@
+{
+ "base": "intfloat/multilingual-e5-base",
+ "train_rows": 71740,
+ "by_source": {
+  "DeputacionCoruna_BOP": 5323,
+  "DeputacionPontevedra_BOPPO": 3597,
+  "ParlaMint-ES-GA": 7363,
+  "SINAI": 30000,
+  "XuntaGalicia_DOG": 25457
+ },
+ "dev_before": {
+  "dog2024-dev_cosine_accuracy@1": 0.2753303964757709,
+  "dog2024-dev_cosine_accuracy@3": 0.3876651982378855,
+  "dog2024-dev_cosine_accuracy@10": 0.4669603524229075,
+  "dog2024-dev_cosine_precision@3": 0.1292217327459618,
+  "dog2024-dev_cosine_precision@10": 0.04669603524229074,
+  "dog2024-dev_cosine_recall@3": 0.3876651982378855,
+  "dog2024-dev_cosine_recall@10": 0.4669603524229075,
+  "dog2024-dev_cosine_ndcg@10": 0.3709573228337967,
+  "dog2024-dev_cosine_mrr@3": 0.3259911894273127,
+  "dog2024-dev_cosine_mrr@10": 0.3403101181735542,
+  "dog2024-dev_cosine_map@10": 0.3403101181735543
+ },
+ "dev_after": {
+  "dog2024-dev_cosine_accuracy@1": 0.36784140969163,
+  "dog2024-dev_cosine_accuracy@3": 0.5,
+  "dog2024-dev_cosine_accuracy@10": 0.6079295154185022,
+  "dog2024-dev_cosine_precision@3": 0.16666666666666666,
+  "dog2024-dev_cosine_precision@10": 0.060792951541850215,
+  "dog2024-dev_cosine_recall@3": 0.5,
+  "dog2024-dev_cosine_recall@10": 0.6079295154185022,
+  "dog2024-dev_cosine_ndcg@10": 0.48656668084620147,
+  "dog2024-dev_cosine_mrr@3": 0.4269456681350956,
+  "dog2024-dev_cosine_mrr@10": 0.4477134466121251,
+  "dog2024-dev_cosine_map@10": 0.44771344661212503
+ },
+ "best_checkpoint": "/kaggle/working/seed2/checkpoints/checkpoint-550",
+ "steps": 560,
+ "minutes": 89.5,
+ "args": {
+  "base": "intfloat/multilingual-e5-base",
+  "train": "/kaggle/input/galician-train-2/mined2/train.jsonl",
+  "dev": "/kaggle/input/galician-train-2/mined2/dev.jsonl",
+  "dev_file": null,
+  "corpus_revision": null,
+  "dev_distractors": 5000,
+  "out": "/kaggle/working/seed2",
+  "max_seq_length": 512,
+  "batch_size": 128,
+  "mini_batch": 16,
+  "epochs": 2.0,
+  "max_steps": -1,
+  "lr": 5e-05,
+  "warmup": 0.05,
+  "eval_steps": 50,
+  "cap": [
+   "SINAI=30000"
+  ],
+  "limit": null,
+  "no_fp16": false,
+  "seed": 2
+ }
+}

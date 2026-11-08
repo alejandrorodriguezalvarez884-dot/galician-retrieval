@@ -1,0 +1,42 @@
+{"summary": "dog", "models": ["run4", "run4-s1", "run4-s2"], "values": [0.8304, 0.8301, 0.8306], "mean": 0.8304, "sd": 0.0003, "range": 0.0005}
+{"summary": "news_doc", "models": ["run4", "run4-s1", "run4-s2"], "values": [0.9605, 0.9459, 0.9459], "mean": 0.9508, "sd": 0.0084, "range": 0.0146}
+{"summary": "news_par", "models": ["run4", "run4-s1", "run4-s2"], "values": [0.8158, 0.8085, 0.8099], "mean": 0.8114, "sd": 0.0039, "range": 0.0073}
+{"summary": "paws", "models": ["run4", "run4-s1", "run4-s2"], "values": [0.5491, 0.549, 0.5463], "mean": 0.5482, "sd": 0.0016, "range": 0.0028}
+{"summary": "webfaq", "models": ["run4", "run4-s1", "run4-s2"], "values": [0.7615, 0.765, 0.7519], "mean": 0.7595, "sd": 0.0068, "range": 0.0131}
+{"summary": "dog", "models": ["mix", "mix-s1", "mix-s2"], "values": [0.8319, 0.8277, 0.8319], "mean": 0.8305, "sd": 0.0024, "range": 0.0042}
+{"summary": "news_doc", "models": ["mix", "mix-s1", "mix-s2"], "values": [0.9649, 0.9561, 0.9605], "mean": 0.9605, "sd": 0.0044, "range": 0.0088}
+{"summary": "news_par", "models": ["mix", "mix-s1", "mix-s2"], "values": [0.8289, 0.8158, 0.8246], "mean": 0.8231, "sd": 0.0067, "range": 0.0132}
+{"summary": "paws", "models": ["mix", "mix-s1", "mix-s2"], "values": [0.5467, 0.5462, 0.5464], "mean": 0.5464, "sd": 0.0002, "range": 0.0005}
+{"summary": "webfaq", "models": ["mix", "mix-s1", "mix-s2"], "values": [0.7684, 0.776, 0.7654], "mean": 0.7699, "sd": 0.0055, "range": 0.0107}
+{"summary": "dog", "models": ["nosinai"], "values": [0.8273], "mean": 0.8273, "sd": null, "range": 0.0}
+{"summary": "news_doc", "models": ["nosinai"], "values": [0.9561], "mean": 0.9561, "sd": null, "range": 0.0}
+{"summary": "news_par", "models": ["nosinai"], "values": [0.8202], "mean": 0.8202, "sd": null, "range": 0.0}
+{"summary": "paws", "models": ["nosinai"], "values": [0.5519], "mean": 0.5519, "sd": null, "range": 0.0}
+{"summary": "webfaq", "models": ["nosinai"], "values": [0.7509], "mean": 0.7509, "sd": null, "range": 0.0}
+{"task": "dog", "a": "mix-s1", "b": "nos", "queries": 917, "questions": 501, "mrr_a": 0.8277, "mrr_b": 0.8068, "diff": 0.0209, "ci95": [-0.0011, 0.0435], "p_two_sided": 0.0642, "better": 137, "worse": 107}
+{"task": "dog", "a": "mix-s1", "b": "bm25", "queries": 917, "questions": 501, "mrr_a": 0.8277, "mrr_b": 0.7823, "diff": 0.0454, "ci95": [0.0203, 0.0714], "p_two_sided": 0.0004, "better": 164, "worse": 105}
+{"task": "dog", "a": "mix-s1", "b": "mix", "queries": 917, "questions": 501, "mrr_a": 0.8277, "mrr_b": 0.8319, "diff": -0.0042, "ci95": [-0.0149, 0.0069], "p_two_sided": 0.452, "better": 50, "worse": 58}
+{"task": "dog", "a": "run4-s1", "b": "run4", "queries": 917, "questions": 501, "mrr_a": 0.8301, "mrr_b": 0.8304, "diff": -0.0004, "ci95": [-0.0119, 0.0115], "p_two_sided": 0.959, "better": 56, "worse": 60}
+{"task": "dog", "a": "mix-s2", "b": "nos", "queries": 917, "questions": 501, "mrr_a": 0.8319, "mrr_b": 0.8068, "diff": 0.0251, "ci95": [0.0024, 0.0482], "p_two_sided": 0.0326, "better": 131, "worse": 98}
+{"task": "dog", "a": "mix-s2", "b": "bm25", "queries": 917, "questions": 501, "mrr_a": 0.8319, "mrr_b": 0.7823, "diff": 0.0496, "ci95": [0.024, 0.0755], "p_two_sided": 0.0, "better": 167, "worse": 106}
+{"task": "dog", "a": "mix-s2", "b": "mix", "queries": 917, "questions": 501, "mrr_a": 0.8319, "mrr_b": 0.8319, "diff": 0.0, "ci95": [-0.0094, 0.0094], "p_two_sided": 0.9992, "better": 44, "worse": 43}
+{"task": "dog", "a": "run4-s2", "b": "run4", "queries": 917, "questions": 501, "mrr_a": 0.8306, "mrr_b": 0.8304, "diff": 0.0002, "ci95": [-0.0099, 0.0107], "p_two_sided": 0.9692, "better": 50, "worse": 52}
+{"task": "dog", "a": "nosinai", "b": "run4", "queries": 917, "questions": 501, "mrr_a": 0.8273, "mrr_b": 0.8304, "diff": -0.0031, "ci95": [-0.0179, 0.0115], "p_two_sided": 0.681, "better": 73, "worse": 80}
+{"task": "dog", "a": "nosinai", "b": "nos", "queries": 917, "questions": 501, "mrr_a": 0.8273, "mrr_b": 0.8068, "diff": 0.0205, "ci95": [-0.0033, 0.0445], "p_two_sided": 0.0884, "better": 136, "worse": 115}
+{"task": "dog", "a": "nosinai", "b": "bm25", "queries": 917, "questions": 501, "mrr_a": 0.8273, "mrr_b": 0.7823, "diff": 0.0451, "ci95": [0.0185, 0.0718], "p_two_sided": 0.001, "better": 174, "worse": 116}
+{"task": "news_doc", "a": "nosinai", "b": "run4", "queries": 114, "questions": 114, "mrr_a": 0.9561, "mrr_b": 0.9605, "diff": -0.0044, "ci95": [-0.0219, 0.0088], "p_two_sided": 0.7764, "better": 1, "worse": 2}
+{"task": "news_doc", "a": "nosinai", "b": "bge-m3", "queries": 114, "questions": 114, "mrr_a": 0.9561, "mrr_b": 0.9693, "diff": -0.0132, "ci95": [-0.0439, 0.0132], "p_two_sided": 0.4598, "better": 3, "worse": 5}
+{"task": "news_doc", "a": "mix-s1", "b": "bge-m3", "queries": 114, "questions": 114, "mrr_a": 0.9561, "mrr_b": 0.9693, "diff": -0.0132, "ci95": [-0.0439, 0.0132], "p_two_sided": 0.4686, "better": 3, "worse": 5}
+{"task": "news_doc", "a": "mix-s2", "b": "bge-m3", "queries": 114, "questions": 114, "mrr_a": 0.9605, "mrr_b": 0.9693, "diff": -0.0088, "ci95": [-0.0351, 0.0175], "p_two_sided": 0.663, "better": 3, "worse": 4}
+{"task": "news_par", "a": "nosinai", "b": "run4", "queries": 114, "questions": 114, "mrr_a": 0.8202, "mrr_b": 0.8158, "diff": 0.0044, "ci95": [-0.019, 0.0292], "p_two_sided": 0.7666, "better": 5, "worse": 5}
+{"task": "news_par", "a": "nosinai", "b": "bge-m3", "queries": 114, "questions": 114, "mrr_a": 0.8202, "mrr_b": 0.8713, "diff": -0.0512, "ci95": [-0.095, -0.0088], "p_two_sided": 0.0168, "better": 6, "worse": 18}
+{"task": "news_par", "a": "mix-s1", "b": "bge-m3", "queries": 114, "questions": 114, "mrr_a": 0.8158, "mrr_b": 0.8713, "diff": -0.0556, "ci95": [-0.1009, -0.0132], "p_two_sided": 0.0082, "better": 5, "worse": 17}
+{"task": "news_par", "a": "mix-s2", "b": "bge-m3", "queries": 114, "questions": 114, "mrr_a": 0.8246, "mrr_b": 0.8713, "diff": -0.0468, "ci95": [-0.0921, -0.0044], "p_two_sided": 0.0274, "better": 6, "worse": 16}
+{"task": "paws", "a": "nosinai", "b": "run4", "mrr_a": 0.5519, "mrr_b": 0.5491, "diff": 0.0028, "ci95": [-0.0033, 0.0083], "p_two_sided": 0.409}
+{"task": "paws", "a": "nosinai", "b": "bge-m3", "mrr_a": 0.5519, "mrr_b": 0.5522, "diff": -0.0003, "ci95": [-0.016, 0.015], "p_two_sided": 0.97}
+{"task": "paws", "a": "mix-s1", "b": "bge-m3", "mrr_a": 0.5462, "mrr_b": 0.5522, "diff": -0.0059, "ci95": [-0.0224, 0.0102], "p_two_sided": 0.489}
+{"task": "paws", "a": "mix-s2", "b": "bge-m3", "mrr_a": 0.5464, "mrr_b": 0.5522, "diff": -0.0058, "ci95": [-0.0215, 0.0095], "p_two_sided": 0.463}
+{"task": "webfaq", "a": "nosinai", "b": "run4", "queries": 309, "questions": 309, "mrr_a": 0.7509, "mrr_b": 0.7615, "diff": -0.0107, "ci95": [-0.0255, 0.0031], "p_two_sided": 0.1342, "better": 31, "worse": 41}
+{"task": "webfaq", "a": "nosinai", "b": "bge-m3", "queries": 309, "questions": 309, "mrr_a": 0.7509, "mrr_b": 0.8469, "diff": -0.096, "ci95": [-0.1217, -0.0708], "p_two_sided": 0.0, "better": 21, "worse": 99}
+{"task": "webfaq", "a": "mix-s1", "b": "bge-m3", "queries": 309, "questions": 309, "mrr_a": 0.776, "mrr_b": 0.8469, "diff": -0.0709, "ci95": [-0.0953, -0.0471], "p_two_sided": 0.0, "better": 22, "worse": 81}
+{"task": "webfaq", "a": "mix-s2", "b": "bge-m3", "queries": 309, "questions": 309, "mrr_a": 0.7654, "mrr_b": 0.8469, "diff": -0.0815, "ci95": [-0.1072, -0.0566], "p_two_sided": 0.0, "better": 20, "worse": 88}

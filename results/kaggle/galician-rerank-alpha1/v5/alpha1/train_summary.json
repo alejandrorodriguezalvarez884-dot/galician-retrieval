@@ -1,0 +1,158 @@
+{
+ "base": "intfloat/multilingual-e5-base",
+ "groups": 70659,
+ "negatives": {
+  "m3": 200054,
+  "bm25": 264334
+ },
+ "by_source": {
+  "ParlaMint-ES-GA": 7209,
+  "SINAI": 29832,
+  "DeputacionCoruna_BOP": 5153,
+  "XuntaGalicia_DOG": 24968,
+  "DeputacionPontevedra_BOPPO": 3497
+ },
+ "alpha": 1.0,
+ "temperature": 1.0,
+ "effective_batch": 16,
+ "dev_bm25_recall10": 0.6322,
+ "dev_reference": {
+  "dog2024-dev_mrr@10": 0.5291,
+  "dog2024-dev_ndcg@10": 0.5548,
+  "dog2024-dev_base_mrr@10": 0.4789,
+  "dog2024-dev_base_ndcg@10": 0.5161
+ },
+ "dev_before": {
+  "dog2024-dev_mrr@10": 0.1728,
+  "dog2024-dev_ndcg@10": 0.2774,
+  "dog2024-dev_base_mrr@10": 0.4789,
+  "dog2024-dev_base_ndcg@10": 0.5161
+ },
+ "dev_after": {
+  "dog2024-dev_mrr@10": 0.533,
+  "dog2024-dev_ndcg@10": 0.5576,
+  "dog2024-dev_base_mrr@10": 0.4789,
+  "dog2024-dev_base_ndcg@10": 0.5161
+ },
+ "best_checkpoint": "/kaggle/working/alpha1/checkpoints/checkpoint-3500",
+ "history": [
+  {
+   "eval_dog2024-dev_map": 0.5026877491084539,
+   "eval_dog2024-dev_mrr@10": 0.5026877491084539,
+   "eval_dog2024-dev_ndcg@10": 0.534732849000814,
+   "eval_dog2024-dev_base_map": 0.47886861058667224,
+   "eval_dog2024-dev_base_mrr@10": 0.47886861058667224,
+   "eval_dog2024-dev_base_ndcg@10": 0.51605810536616,
+   "eval_runtime": 20.3686,
+   "eval_samples_per_second": 0.0,
+   "eval_steps_per_second": 0.0,
+   "epoch": 0.1132214328172323,
+   "step": 500
+  },
+  {
+   "eval_dog2024-dev_map": 0.5273153975246486,
+   "eval_dog2024-dev_mrr@10": 0.5273153975246486,
+   "eval_dog2024-dev_ndcg@10": 0.5534740098967855,
+   "eval_dog2024-dev_base_map": 0.47886861058667224,
+   "eval_dog2024-dev_base_mrr@10": 0.47886861058667224,
+   "eval_dog2024-dev_base_ndcg@10": 0.51605810536616,
+   "eval_runtime": 20.3122,
+   "eval_samples_per_second": 0.0,
+   "eval_steps_per_second": 0.0,
+   "epoch": 0.2264428656344646,
+   "step": 1000
+  },
+  {
+   "eval_dog2024-dev_map": 0.5190065380043354,
+   "eval_dog2024-dev_mrr@10": 0.5201078595902384,
+   "eval_dog2024-dev_ndcg@10": 0.548439793645249,
+   "eval_dog2024-dev_base_map": 0.47886861058667224,
+   "eval_dog2024-dev_base_mrr@10": 0.47886861058667224,
+   "eval_dog2024-dev_base_ndcg@10": 0.51605810536616,
+   "eval_runtime": 20.3301,
+   "eval_samples_per_second": 0.0,
+   "eval_steps_per_second": 0.0,
+   "epoch": 0.33966429845169693,
+   "step": 1500
+  },
+  {
+   "eval_dog2024-dev_map": 0.524237815537375,
+   "eval_dog2024-dev_mrr@10": 0.524237815537375,
+   "eval_dog2024-dev_ndcg@10": 0.5516256849015423,
+   "eval_dog2024-dev_base_map": 0.47886861058667224,
+   "eval_dog2024-dev_base_mrr@10": 0.47886861058667224,
+   "eval_dog2024-dev_base_ndcg@10": 0.51605810536616,
+   "eval_runtime": 20.2761,
+   "eval_samples_per_second": 0.0,
+   "eval_steps_per_second": 0.0,
+   "epoch": 0.4528857312689292,
+   "step": 2000
+  },
+  {
+   "eval_dog2024-dev_map": 0.5250821620865673,
+   "eval_dog2024-dev_mrr@10": 0.5250821620865673,
+   "eval_dog2024-dev_ndcg@10": 0.5515570006305432,
+   "eval_dog2024-dev_base_map": 0.47886861058667224,
+   "eval_dog2024-dev_base_mrr@10": 0.47886861058667224,
+   "eval_dog2024-dev_base_ndcg@10": 0.51605810536616,
+   "eval_runtime": 20.1608,
+   "eval_samples_per_second": 0.0,
+   "eval_steps_per_second": 0.0,
+   "epoch": 0.5661071640861615,
+   "step": 2500
+  },
+  {
+   "eval_dog2024-dev_map": 0.5235918816865953,
+   "eval_dog2024-dev_mrr@10": 0.5257945248584015,
+   "eval_dog2024-dev_ndcg@10": 0.5518209686695129,
+   "eval_dog2024-dev_base_map": 0.47886861058667224,
+   "eval_dog2024-dev_base_mrr@10": 0.47886861058667224,
+   "eval_dog2024-dev_base_ndcg@10": 0.51605810536616,
+   "eval_runtime": 20.2243,
+   "eval_samples_per_second": 0.0,
+   "eval_steps_per_second": 0.0,
+   "epoch": 0.6793285969033939,
+   "step": 3000
+  },
+  {
+   "eval_dog2024-dev_map": 0.5299769246905811,
+   "eval_dog2024-dev_mrr@10": 0.5330239144115797,
+   "eval_dog2024-dev_ndcg@10": 0.5575515538589715,
+   "eval_dog2024-dev_base_map": 0.47886861058667224,
+   "eval_dog2024-dev_base_mrr@10": 0.47886861058667224,
+   "eval_dog2024-dev_base_ndcg@10": 0.51605810536616,
+   "eval_runtime": 20.3565,
+   "eval_samples_per_second": 0.0,
+   "eval_steps_per_second": 0.0,
+   "epoch": 0.7925500297206262,
+   "step": 3500
+  },
+  {
+   "eval_dog2024-dev_map": 0.5274316481364939,
+   "eval_dog2024-dev_mrr@10": 0.5323875952730578,
+   "eval_dog2024-dev_ndcg@10": 0.5570245152564073,
+   "eval_dog2024-dev_base_map": 0.47886861058667224,
+   "eval_dog2024-dev_base_mrr@10": 0.47886861058667224,
+   "eval_dog2024-dev_base_ndcg@10": 0.51605810536616,
+   "eval_runtime": 20.2185,
+   "eval_samples_per_second": 0.0,
+   "eval_steps_per_second": 0.0,
+   "epoch": 0.9057714625378585,
+   "step": 4000
+  },
+  {
+   "eval_dog2024-dev_map": 0.5265444724145164,
+   "eval_dog2024-dev_mrr@10": 0.5307662051604783,
+   "eval_dog2024-dev_ndcg@10": 0.5560582818004578,
+   "eval_dog2024-dev_base_map": 0.47886861058667224,
+   "eval_dog2024-dev_base_mrr@10": 0.47886861058667224,
+   "eval_dog2024-dev_base_ndcg@10": 0.51605810536616,
+   "eval_runtime": 20.2689,
+   "eval_samples_per_second": 0.0,
+   "eval_steps_per_second": 0.0,
+   "epoch": 1.0,
+   "step": 4417
+  }
+ ],
+ "minutes": 223.2
+}

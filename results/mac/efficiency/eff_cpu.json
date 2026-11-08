@@ -1,0 +1,20 @@
+{
+ "device": "cpu",
+ "torch_threads": 4,
+ "machine": "arm64",
+ "processor": "arm",
+ "torch": "2.15.0",
+ "embedder_params": 278043648,
+ "query_latency_ms": {
+  "median": 13.314395502675325,
+  "p90": 17.607999994652346
+ },
+ "passages_per_s_batch32": 17.539657188976758,
+ "index_36k_minutes_est": 34.5103666211,
+ "reranker_params": 278044417,
+ "rerank_top10_ms": {
+  "median": 659.4179584935773,
+  "p90": 800.4329160030466
+ },
+ "peak_rss_mb": 2921.875
+}

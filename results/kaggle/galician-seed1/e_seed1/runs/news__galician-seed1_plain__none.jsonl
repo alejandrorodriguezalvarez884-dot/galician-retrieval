@@ -1,0 +1,114 @@
+{"id": "0", "final": [["codigo_cero01", 2], ["codigo_cero01", 0], ["Praza-2022-11-29 10:54:33", 0]], "mrr": 1.0}
+{"id": "1", "final": [["codigo_cero01", 0], ["codigo_cero01", 2], ["codigo_cero01", 1]], "mrr": 1.0}
+{"id": "2", "final": [["codigo_cero01", 0], ["codigo_cero01", 1], ["codigo_cero01", 2]], "mrr": 1.0}
+{"id": "3", "final": [["codigo_cero01", 2], ["codigo_cero01", 0], ["Praza-2022-11-29 10:54:33", 0]], "mrr": 1.0}
+{"id": "5", "final": [["codigo_cero02", 1], ["codigo_cero02", 4], ["codigo_cero02", 0]], "mrr": 1.0}
+{"id": "6", "final": [["codigo_cero02", 1], ["codigo_cero02", 0], ["Praza-2022-05-13 09:09:00", 0]], "mrr": 1.0}
+{"id": "7", "final": [["codigo_cero02", 0], ["codigo_cero02", 2], ["codigo_cero02", 1]], "mrr": 1.0}
+{"id": "8", "final": [["codigo_cero02", 1], ["codigo_cero02", 4], ["codigo_cero02", 0]], "mrr": 1.0}
+{"id": "9", "final": [["codigo_cero02", 0], ["codigo_cero02", 1], ["codigo_cero02", 3]], "mrr": 1.0}
+{"id": "10", "final": [["codigo_cero03", 0], ["Praza-2022-04-01 19:01:00", 0], ["Praza-2022-10-17 17:19:13", 0]], "mrr": 1.0}
+{"id": "11", "final": [["codigo_cero03", 0], ["Praza-2022-04-01 19:01:00", 0], ["codigo_cero03", 1]], "mrr": 1.0}
+{"id": "12", "final": [["codigo_cero03", 2], ["codigo_cero03", 0], ["codigo_cero03", 3]], "mrr": 1.0}
+{"id": "14", "final": [["codigo_cero03", 0], ["codigo_cero03", 1], ["Praza-2022-05-23 17:28:03", 0]], "mrr": 1.0}
+{"id": "15", "final": [["codigo_cero04", 0], ["codigo_cero04", 4], ["codigo_cero04", 5]], "mrr": 1.0}
+{"id": "16", "final": [["codigo_cero04", 0], ["codigo_cero04", 4], ["codigo_cero04", 5]], "mrr": 1.0}
+{"id": "17", "final": [["codigo_cero04", 5], ["codigo_cero04", 3], ["codigo_cero04", 4]], "mrr": 1.0}
+{"id": "18", "final": [["codigo_cero04", 0], ["codigo_cero04", 5], ["codigo_cero04", 4]], "mrr": 1.0}
+{"id": "19", "final": [["codigo_cero05", 0], ["codigo_cero05", 2], ["codigo_cero05", 1]], "mrr": 1.0}
+{"id": "20", "final": [["codigo_cero05", 0], ["codigo_cero05", 1], ["codigo_cero05", 2]], "mrr": 1.0}
+{"id": "21", "final": [["codigo_cero05", 0], ["codigo_cero05", 2], ["codigo_cero05", 1]], "mrr": 1.0}
+{"id": "23", "final": [["codigo_cero06", 1], ["codigo_cero06", 0], ["Praza-2022-06-19 08:30:00", 0]], "mrr": 1.0}
+{"id": "24", "final": [["codigo_cero06", 0], ["codigo_cero06", 1], ["Praza-2022-08-29 12:42:01", 0]], "mrr": 1.0}
+{"id": "25", "final": [["codigo_cero06", 1], ["codigo_cero06", 0], ["Praza-2022-06-19 08:30:00", 0]], "mrr": 1.0}
+{"id": "26", "final": [["codigo_cero07", 2], ["codigo_cero07", 3], ["codigo_cero07", 1]], "mrr": 1.0}
+{"id": "27", "final": [["codigo_cero07", 1], ["codigo_cero07", 2], ["codigo_cero07", 3]], "mrr": 1.0}
+{"id": "28", "final": [["codigo_cero07", 1], ["codigo_cero07", 2], ["codigo_cero07", 3]], "mrr": 1.0}
+{"id": "29", "final": [["codigo_cero08", 2], ["codigo_cero08", 0], ["codigo_cero04", 0]], "mrr": 1.0}
+{"id": "30", "final": [["codigo_cero08", 2], ["codigo_cero08", 0], ["Praza-2022-04-18 08:20:00", 0]], "mrr": 1.0}
+{"id": "32", "final": [["codigo_cero09", 1], ["codigo_cero09", 0], ["codigo_cero08", 3]], "mrr": 1.0}
+{"id": "33", "final": [["codigo_cero09", 1], ["codigo_cero09", 0], ["codigo_cero09", 4]], "mrr": 1.0}
+{"id": "34", "final": [["codigo_cero09", 1], ["codigo_cero09", 0], ["codigo_cero09", 4]], "mrr": 1.0}
+{"id": "36", "final": [["codigo_cero10", 0], ["codigo_cero10", 3], ["codigo_cero04", 3]], "mrr": 1.0}
+{"id": "37", "final": [["codigo_cero10", 3], ["codigo_cero10", 1], ["Praza-2022-06-24 11:00:00", 0]], "mrr": 1.0}
+{"id": "39", "final": [["praza_gal01", 0], ["Praza-2022-02-23 12:41:00", 0], ["Praza-2022-01-03 15:00:12", 0]], "mrr": 1.0}
+{"id": "40", "final": [["Praza-2022-07-24 09:00:00", 0], ["praza_gal01", 0], ["Praza-2022-01-03 15:00:12", 0]], "mrr": 0.5}
+{"id": "41", "final": [["Praza-2022-11-27 09:00:00", 0], ["Praza-2022-08-10 08:00:00", 0], ["Praza-2022-01-03 07:45:00", 0]], "mrr": 0.0}
+{"id": "42", "final": [["Praza-2022-06-07 17:09:00", 0], ["praza_gal02", 2], ["praza_gal02", 3]], "mrr": 0.5}
+{"id": "44", "final": [["praza_gal02", 0], ["Praza-2022-04-12 13:27:00", 0], ["Praza-2022-03-16 08:29:00", 0]], "mrr": 1.0}
+{"id": "45", "final": [["praza_gal03", 0], ["galicia_e09", 0], ["Praza-2022-10-21 08:26:00", 0]], "mrr": 1.0}
+{"id": "46", "final": [["praza_gal03", 1], ["Praza-2022-05-31 10:21:55", 0], ["Praza-2022-10-31 10:32:12", 0]], "mrr": 1.0}
+{"id": "47", "final": [["praza_gal03", 0], ["galicia_e09", 0], ["Praza-2022-04-18 10:23:08", 0]], "mrr": 1.0}
+{"id": "48", "final": [["praza_gal04", 0], ["Praza-2022-06-15 12:29:20", 0], ["Praza-2022-04-27 16:39:00", 0]], "mrr": 1.0}
+{"id": "49", "final": [["praza_gal04", 2], ["praza_gal04", 1], ["Praza-2022-06-05 09:01:00", 0]], "mrr": 1.0}
+{"id": "50", "final": [["praza_gal04", 2], ["praza_gal04", 0], ["praza_gal04", 1]], "mrr": 1.0}
+{"id": "51", "final": [["praza_gal04", 0], ["Praza-2022-05-31 12:52:00", 0], ["praza_gal04", 2]], "mrr": 1.0}
+{"id": "52", "final": [["praza_gal04", 0], ["praza_gal04", 2], ["Praza-2022-06-15 12:29:20", 0]], "mrr": 1.0}
+{"id": "53", "final": [["praza_gal05", 3], ["praza_gal05", 5], ["praza_gal05", 4]], "mrr": 1.0}
+{"id": "54", "final": [["praza_gal05", 1], ["praza_gal05", 0], ["praza_gal05", 2]], "mrr": 1.0}
+{"id": "55", "final": [["Praza-2022-09-25 17:10:00", 0], ["praza_gal05", 4], ["Praza-2022-02-11 19:01:00", 0]], "mrr": 0.5}
+{"id": "56", "final": [["praza_gal05", 3], ["praza_gal05", 5], ["Praza-2022-09-14 08:21:00", 0]], "mrr": 1.0}
+{"id": "57", "final": [["Praza-2022-09-23 19:01:00", 0], ["Praza-2022-02-11 19:01:00", 0], ["Praza-2022-07-25 14:02:00", 0]], "mrr": 0.0}
+{"id": "58", "final": [["praza_gal06", 0], ["praza_gal06", 1], ["praza_gal06", 2]], "mrr": 1.0}
+{"id": "59", "final": [["praza_gal06", 0], ["praza_gal06", 1], ["praza_gal06", 2]], "mrr": 1.0}
+{"id": "60", "final": [["praza_gal06", 0], ["praza_gal06", 1], ["praza_gal06", 2]], "mrr": 1.0}
+{"id": "61", "final": [["praza_gal06", 0], ["praza_gal06", 2], ["praza_gal06", 1]], "mrr": 1.0}
+{"id": "62", "final": [["praza_gal06", 4], ["praza_gal06", 0], ["praza_gal06", 1]], "mrr": 1.0}
+{"id": "63", "final": [["praza_gal07", 2], ["praza_gal07", 1], ["Praza-2022-10-01 09:00:00", 0]], "mrr": 1.0}
+{"id": "64", "final": [["praza_gal07", 4], ["praza_gal07", 0], ["praza_gal07", 3]], "mrr": 1.0}
+{"id": "65", "final": [["praza_gal07", 4], ["praza_gal07", 1], ["praza_gal07", 2]], "mrr": 1.0}
+{"id": "67", "final": [["praza_gal07", 4], ["praza_gal07", 1], ["Praza-2022-11-13 09:01:00", 0]], "mrr": 1.0}
+{"id": "68", "final": [["praza_gal08", 0], ["praza_gal08", 1], ["praza_gal10", 6]], "mrr": 1.0}
+{"id": "69", "final": [["praza_gal08", 2], ["Praza-2022-01-30 15:59:00", 0], ["praza_gal10", 11]], "mrr": 1.0}
+{"id": "70", "final": [["praza_gal08", 0], ["praza_gal08", 1], ["praza_gal10", 1]], "mrr": 1.0}
+{"id": "71", "final": [["praza_gal08", 1], ["praza_gal10", 1], ["praza_gal10", 8]], "mrr": 1.0}
+{"id": "72", "final": [["praza_gal08", 4], ["praza_gal08", 0], ["Praza-2022-05-28 16:54:20", 0]], "mrr": 1.0}
+{"id": "73", "final": [["praza_gal09", 0], ["praza_gal09", 2], ["praza_gal09", 1]], "mrr": 1.0}
+{"id": "74", "final": [["Praza-2022-05-08 16:08:19", 0], ["praza_gal09", 2], ["praza_gal09", 0]], "mrr": 0.5}
+{"id": "75", "final": [["praza_gal09", 3], ["praza_gal09", 2], ["Praza-2022-02-17 10:51:32", 0]], "mrr": 1.0}
+{"id": "76", "final": [["praza_gal09", 0], ["praza_gal09", 2], ["praza_gal09", 3]], "mrr": 1.0}
+{"id": "77", "final": [["praza_gal09", 3], ["praza_gal09", 2], ["praza_gal09", 1]], "mrr": 1.0}
+{"id": "78", "final": [["praza_gal10", 12], ["Praza-2022-04-29 12:00:25", 0], ["praza_gal10", 7]], "mrr": 1.0}
+{"id": "79", "final": [["praza_gal08", 1], ["praza_gal10", 9], ["praza_gal10", 1]], "mrr": 0.5}
+{"id": "80", "final": [["Praza-2022-04-29 12:00:25", 0], ["praza_gal10", 0], ["praza_gal10", 12]], "mrr": 0.5}
+{"id": "81", "final": [["praza_gal10", 7], ["praza_gal10", 11], ["praza_gal10", 12]], "mrr": 1.0}
+{"id": "82", "final": [["praza_gal10", 8], ["praza_gal08", 1], ["praza_gal10", 10]], "mrr": 1.0}
+{"id": "83", "final": [["galicia_e01", 0], ["galicia_e01", 2], ["galicia_e01", 1]], "mrr": 1.0}
+{"id": "84", "final": [["galicia_e01", 2], ["Praza-2022-07-31 09:40:28", 0], ["Praza-2022-08-22 17:48:19", 0]], "mrr": 1.0}
+{"id": "85", "final": [["galicia_e01", 5], ["galicia_e01", 0], ["galicia_e01", 4]], "mrr": 1.0}
+{"id": "86", "final": [["galicia_e01", 0], ["galicia_e01", 2], ["galicia_e01", 1]], "mrr": 1.0}
+{"id": "87", "final": [["Praza-2022-08-04 14:54:32", 0], ["galicia_e01", 5], ["Praza-2022-10-17 11:02:17", 0]], "mrr": 0.5}
+{"id": "88", "final": [["galicia_e02", 0], ["galicia_e02", 1], ["Praza-2022-07-29 10:10:04", 0]], "mrr": 1.0}
+{"id": "89", "final": [["galicia_e02", 1], ["Praza-2022-10-25 11:01:00", 0], ["Praza-2022-03-08 19:01:00", 0]], "mrr": 1.0}
+{"id": "90", "final": [["galicia_e02", 1], ["galicia_e02", 0], ["Praza-2022-06-08 08:58:00", 0]], "mrr": 1.0}
+{"id": "91", "final": [["galicia_e03", 0], ["galicia_e03", 4], ["galicia_e03", 5]], "mrr": 1.0}
+{"id": "92", "final": [["galicia_e03", 0], ["galicia_e03", 5], ["Praza-2022-04-12 09:42:26", 0]], "mrr": 1.0}
+{"id": "93", "final": [["galicia_e03", 5], ["galicia_e03", 0], ["galicia_e03", 4]], "mrr": 1.0}
+{"id": "94", "final": [["galicia_e03", 0], ["galicia_e03", 4], ["galicia_e03", 5]], "mrr": 1.0}
+{"id": "95", "final": [["galicia_e04", 0], ["Praza-2022-07-26 09:03:00", 0], ["Praza-2022-06-28 09:50:27", 0]], "mrr": 1.0}
+{"id": "96", "final": [["galicia_e04", 0], ["galicia_e04", 5], ["galicia_e04", 3]], "mrr": 1.0}
+{"id": "97", "final": [["galicia_e04", 0], ["galicia_e04", 5], ["galicia_e04", 3]], "mrr": 1.0}
+{"id": "98", "final": [["galicia_e04", 0], ["galicia_e04", 5], ["galicia_e04", 3]], "mrr": 1.0}
+{"id": "99", "final": [["galicia_e04", 0], ["galicia_e04", 5], ["galicia_e04", 2]], "mrr": 1.0}
+{"id": "100", "final": [["galicia_e05", 0], ["galicia_e05", 2], ["Praza-2022-04-02 10:16:15", 0]], "mrr": 1.0}
+{"id": "101", "final": [["galicia_e05", 0], ["galicia_e05", 2], ["Praza-2022-06-08 08:58:00", 0]], "mrr": 1.0}
+{"id": "102", "final": [["Praza-2022-06-08 08:58:00", 0], ["Praza-2022-01-10 08:11:00", 0], ["galicia_e05", 0]], "mrr": 0.3333333333333333}
+{"id": "103", "final": [["galicia_e05", 0], ["galicia_e05", 2], ["galicia_e05", 1]], "mrr": 1.0}
+{"id": "104", "final": [["galicia_e06", 1], ["galicia_e06", 0], ["Praza-2022-11-09 09:52:47", 0]], "mrr": 1.0}
+{"id": "105", "final": [["galicia_e06", 0], ["galicia_e06", 4], ["Praza-2022-01-19 18:08:07", 0]], "mrr": 1.0}
+{"id": "106", "final": [["galicia_e06", 0], ["galicia_e06", 1], ["galicia_e06", 3]], "mrr": 1.0}
+{"id": "107", "final": [["galicia_e06", 3], ["galicia_e06", 1], ["galicia_e06", 0]], "mrr": 1.0}
+{"id": "108", "final": [["galicia_e07", 0], ["galicia_e07", 1], ["Praza-2022-01-18 11:31:24", 0]], "mrr": 1.0}
+{"id": "111", "final": [["galicia_e07", 1], ["galicia_e07", 0], ["Praza-2022-04-12 09:42:26", 0]], "mrr": 1.0}
+{"id": "112", "final": [["galicia_e08", 0], ["Praza-2022-07-01 11:07:00", 0], ["Praza-2022-01-13 08:21:00", 0]], "mrr": 1.0}
+{"id": "113", "final": [["galicia_e08", 0], ["galicia_e08", 1], ["galicia_e08", 3]], "mrr": 1.0}
+{"id": "114", "final": [["galicia_e08", 0], ["galicia_e08", 3], ["Praza-2022-11-12 17:31:00", 0]], "mrr": 1.0}
+{"id": "115", "final": [["galicia_e08", 0], ["Praza-2022-07-01 11:07:00", 0], ["Praza-2022-01-13 08:21:00", 0]], "mrr": 1.0}
+{"id": "116", "final": [["galicia_e09", 0], ["Praza-2022-05-31 10:21:55", 0], ["Praza-2022-06-01 11:29:16", 0]], "mrr": 1.0}
+{"id": "117", "final": [["galicia_e09", 0], ["galicia_e09", 1], ["Praza-2022-05-31 10:21:55", 0]], "mrr": 1.0}
+{"id": "118", "final": [["galicia_e09", 3], ["galicia_e09", 2], ["galicia_e09", 0]], "mrr": 1.0}
+{"id": "119", "final": [["galicia_e09", 3], ["galicia_e09", 0], ["galicia_e09", 2]], "mrr": 1.0}
+{"id": "120", "final": [["galicia_e10", 0], ["galicia_e10", 1], ["galicia_e10", 3]], "mrr": 1.0}
+{"id": "121", "final": [["galicia_e10", 0], ["Praza-2022-06-19 08:30:00", 0], ["Praza-2022-11-30 13:27:58", 0]], "mrr": 1.0}
+{"id": "122", "final": [["galicia_e10", 3], ["galicia_e10", 1], ["galicia_e10", 0]], "mrr": 1.0}
+{"id": "123", "final": [["galicia_e10", 3], ["galicia_e10", 2], ["Praza-2022-11-29 17:40:00", 0]], "mrr": 1.0}

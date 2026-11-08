@@ -1,0 +1,62 @@
+{
+ "base": "intfloat/multilingual-e5-base",
+ "train_rows": 41740,
+ "by_source": {
+  "DeputacionCoruna_BOP": 5323,
+  "DeputacionPontevedra_BOPPO": 3597,
+  "ParlaMint-ES-GA": 7363,
+  "XuntaGalicia_DOG": 25457
+ },
+ "dev_before": {
+  "dog2024-dev_cosine_accuracy@1": 0.27312775330396477,
+  "dog2024-dev_cosine_accuracy@3": 0.3766519823788546,
+  "dog2024-dev_cosine_accuracy@10": 0.4669603524229075,
+  "dog2024-dev_cosine_precision@3": 0.12555066079295155,
+  "dog2024-dev_cosine_precision@10": 0.04669603524229075,
+  "dog2024-dev_cosine_recall@3": 0.3766519823788546,
+  "dog2024-dev_cosine_recall@10": 0.4669603524229075,
+  "dog2024-dev_cosine_ndcg@10": 0.3688757847560906,
+  "dog2024-dev_cosine_mrr@3": 0.3197503671071953,
+  "dog2024-dev_cosine_mrr@10": 0.337456296762464,
+  "dog2024-dev_cosine_map@10": 0.33745629676246414
+ },
+ "dev_after": {
+  "dog2024-dev_cosine_accuracy@1": 0.3788546255506608,
+  "dog2024-dev_cosine_accuracy@3": 0.4933920704845815,
+  "dog2024-dev_cosine_accuracy@10": 0.6079295154185022,
+  "dog2024-dev_cosine_precision@3": 0.16446402349486047,
+  "dog2024-dev_cosine_precision@10": 0.06079295154185021,
+  "dog2024-dev_cosine_recall@3": 0.4933920704845815,
+  "dog2024-dev_cosine_recall@10": 0.6079295154185022,
+  "dog2024-dev_cosine_ndcg@10": 0.48889681784834477,
+  "dog2024-dev_cosine_mrr@3": 0.43024963289280466,
+  "dog2024-dev_cosine_mrr@10": 0.4512822529893012,
+  "dog2024-dev_cosine_map@10": 0.45128225298930147
+ },
+ "best_checkpoint": "/kaggle/working/nosinai/checkpoints/checkpoint-326",
+ "steps": 326,
+ "minutes": 49.4,
+ "args": {
+  "base": "intfloat/multilingual-e5-base",
+  "train": "/kaggle/input/notebooks/alejandrorodalv/galician-train-2/mined2/train.jsonl",
+  "dev": "/kaggle/input/notebooks/alejandrorodalv/galician-train-2/mined2/dev.jsonl",
+  "dev_file": null,
+  "corpus_revision": null,
+  "dev_distractors": 5000,
+  "out": "/kaggle/working/nosinai",
+  "max_seq_length": 512,
+  "batch_size": 128,
+  "mini_batch": 16,
+  "epochs": 2.0,
+  "max_steps": -1,
+  "lr": 5e-05,
+  "warmup": 0.05,
+  "eval_steps": 50,
+  "cap": [
+   "SINAI=0"
+  ],
+  "limit": null,
+  "no_fp16": false,
+  "seed": 0
+ }
+}
