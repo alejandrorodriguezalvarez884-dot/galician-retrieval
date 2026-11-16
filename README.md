@@ -34,7 +34,7 @@ Over three training seeds the embedder scores 0.828–0.832 and is ahead of bge-
 | bge-m3 | 0.789 |
 | BM25 | 0.698 |
 
-The embedder beats BM25 again (+0.117, Holm-adjusted p 0.012) but cannot be told apart from bge-m3 or bge-m3 + bge-reranker-v2-m3. Scored after the plan (exploratory): on BM25's top 10, our reranker reaches 0.744 against 0.801 for bge-reranker-v2-m3, so the tie on DOG-RAG does not carry over to these questions. Results and per-query files in `results/human-test/`.
+The embedder beats BM25 again (+0.117, Holm-adjusted p 0.012) but cannot be told apart from bge-m3 or bge-m3 + bge-reranker-v2-m3. Scored after the plan (exploratory): on BM25's top 10, our reranker reaches 0.744 against 0.801 for bge-reranker-v2-m3, so the tie on DOG-RAG does not carry over to these questions. The questions (reviewed and as drafted) and the sampled documents are in [`human-test/`](human-test/README.md), under CC BY 4.0; results and per-query files in `results/human-test/`.
 
 ## Layout
 
