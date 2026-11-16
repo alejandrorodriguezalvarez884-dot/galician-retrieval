@@ -22,13 +22,27 @@ DOG-RAG, 917 queries (501 questions with their paraphrases), document level, top
 
 Over three training seeds the embedder scores 0.828–0.832 and is ahead of bge-m3 + bge-reranker-v2-m3 by 2.1–2.5 points in every seed. After a Holm correction across the comparisons we report, that difference is not significant (adjusted p 0.17–0.19). Against bge-m3 on its own the gain is large and holds. On nos-rag-news paragraph retrieval and WebFAQ glg the embedder trails bge-m3. Every number, interval and the correction is reproducible from `results/` with the scripts in `analysis/`.
 
+## Second test set
+
+108 questions over 94 DOG 2025 documents that are in the index but not in DOG-RAG, drafted by a different language model and reviewed by a Galician linguist (97 kept as drafted, 11 edited). The comparisons and their correction were fixed before scoring: [`human-test/analysis-plan.md`](human-test/analysis-plan.md).
+
+| Pipeline | MRR |
+|---|---|
+| Our embedder (mix 0.9) | 0.815 |
+| Run 5 | 0.806 |
+| bge-m3 + bge-reranker-v2-m3 | 0.804 |
+| bge-m3 | 0.789 |
+| BM25 | 0.698 |
+
+The embedder beats BM25 again (+0.117, Holm-adjusted p 0.012) but cannot be told apart from bge-m3 or bge-m3 + bge-reranker-v2-m3. Scored after the plan (exploratory): on BM25's top 10, our reranker reaches 0.744 against 0.801 for bge-reranker-v2-m3, so the tie on DOG-RAG does not carry over to these questions. Results and per-query files in `results/human-test/`.
+
 ## Layout
 
 | Path | What |
 |---|---|
 | `src/` | Data building, training, evaluation and bootstrap. The scripts import each other, so they live in one folder. |
 | `analysis/` | Paired bootstraps, seed spread, Holm correction, error analysis, efficiency. Reads `results/`. |
-| `human-test/` | Sampling, annotation form and scorer for a second, linguist-reviewed DOG 2025 test set. |
+| `human-test/` | Sampling, annotation form, scorer and analysis plan for the second, linguist-reviewed DOG 2025 test set. |
 | `kaggle/` | Pushes and follows the seed and ablation kernels with the Kaggle CLI. |
 | `results/` | `results.jsonl`, per-query run files and training summaries, organised by where each job ran (`kaggle/`, `gcp/`, `mac/`). |
 
@@ -63,6 +77,7 @@ The Kaggle notebooks are generated, not stored: `src/build_notebooks.py` writes 
 pip install -r requirements.txt
 python analysis/boot_variance.py > variance.jsonl
 python analysis/holm.py --out holm-results.md
+python analysis/holm_e.py --results results/human-test/reviewed.json --out holm-results-E.md
 python analysis/issuer_confusion.py
 ```
 
@@ -81,5 +96,6 @@ Local working files (downloads, checkpoints, caches) go under `work/`, which is 
 - ParlaMint-ES-GA: CC BY 4.0.
 - SINAI legal-administrative triplets: CC BY-SA 4.0; the Galician translation keeps that licence.
 - Synthetic questions were generated with Salamandra-7b-instruct (Apache-2.0).
+- The embedder's training data, dev set and hard negatives: [alejandro-rodriguez/galician-retrieval-pairs](https://huggingface.co/datasets/alejandro-rodriguez/galician-retrieval-pairs) (CC BY-SA 4.0).
 
 The code is MIT-licensed.

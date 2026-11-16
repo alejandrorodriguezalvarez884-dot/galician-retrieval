@@ -10,12 +10,15 @@ Run from the repo root (the paper's numbers: Apple M5, MPS, fp32, as results/mac
     HF_HOME=work/hf-cache python human-test/eval_human.py \
         --sheet path/to/preguntas_dog_DATE.csv
 
-Systems (--systems, default all):
+Systems (--systems, default the first five, the ones in human-test/analysis-plan.md):
   bm25      bm25s, k1 1.2, b 0.75, as in eval_dog.py
   bge-m3    BAAI/bge-m3, plain encode (no prompts), as nos-rag-eval runs it
   nos       bge-m3 top 10 reranked by BAAI/bge-reranker-v2-m3: Nós's pipeline
   mix       mix 0.9 (release candidate), work/kaggle/mix/mix/final
   run5      run 5, work/gcp/run5/run5/final
+  bm25-bge  BM25 top 10 reranked by bge-reranker-v2-m3   (added after the plan: exploratory)
+  bm25-ours BM25 top 10 reranked by galician-reranker-me5-base, work/gcp/rerank1/rerank1/final
+  mix-ours  mix top 10 reranked by galician-reranker-me5-base
 
 Chunk embeddings are read from --cache-dir (eval_dog.py's file names, e.g.
 galician-mix_plain_fb26bfd556.npy) and computed and saved there when missing; bge-m3 has no
@@ -80,6 +83,7 @@ MODELS = {
     "bge-reranker-v2-m3": "BAAI/bge-reranker-v2-m3",
     "galician-mix": "work/kaggle/mix/mix/final",
     "galician-run5": "work/gcp/run5/run5/final",
+    "galician-reranker": "work/gcp/rerank1/rerank1/final",
 }
 # system -> (first-stage embedder or "bm25", reranker or None)
 SYSTEMS = {
@@ -88,11 +92,18 @@ SYSTEMS = {
     "nos": ("bge-m3", "bge-reranker-v2-m3"),
     "mix": ("galician-mix", None),
     "run5": ("galician-run5", None),
+    # Reranker rows, added after the analysis plan (exploratory, outside family E):
+    "bm25-bge": ("bm25", "bge-reranker-v2-m3"),
+    "bm25-ours": ("bm25", "galician-reranker"),
+    "mix-ours": ("galician-mix", "galician-reranker"),
 }
+DEFAULT_SYSTEMS = ["bm25", "bge-m3", "nos", "mix", "run5"]  # the five in the analysis plan
 PAIRS = [("mix", "bm25"), ("mix", "bge-m3"), ("mix", "nos"), ("mix", "run5"),
-         ("run5", "bm25"), ("run5", "bge-m3"), ("run5", "nos"), ("nos", "bm25")]
+         ("run5", "bm25"), ("run5", "bge-m3"), ("run5", "nos"), ("nos", "bm25"),
+         ("bm25-ours", "bm25-bge"), ("bm25-ours", "bm25"), ("bm25-bge", "bm25"), ("mix-ours", "mix")]
 # DOG-RAG MRR of the same systems on the same index (results/).
-DOGRAG_MRR = {"bm25": 0.780, "bge-m3": 0.740, "nos": 0.807, "mix": 0.833, "run5": 0.836}
+DOGRAG_MRR = {"bm25": 0.780, "bge-m3": 0.740, "nos": 0.807, "mix": 0.833, "run5": 0.836,
+              "bm25-bge": 0.800, "bm25-ours": 0.804, "mix-ours": 0.816}
 
 # Galician labels in the sheet -> DOG-RAG categories.
 CATEGORY = {
@@ -243,7 +254,7 @@ def main():
     ap.add_argument("--drafts", type=Path, default=HERE / "drafts_llm.csv",
                     help="frozen LLM drafts to compare the sheet with (skipped if missing or same file)")
     ap.add_argument("--dograg", action="store_true", help="score DOG-RAG's queries instead (harness check)")
-    ap.add_argument("--systems", default=",".join(SYSTEMS))
+    ap.add_argument("--systems", default=",".join(DEFAULT_SYSTEMS))
     ap.add_argument("--model", action="append", default=[], help="NAME=PATH, replaces a model in MODELS")
     ap.add_argument("--cache-dir", default="work/mac/pipeline/cache")
     ap.add_argument("--dog2025", default=DOG2025)
